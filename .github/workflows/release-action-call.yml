@@ -16,7 +16,7 @@ jobs:
       #Update your values here
       BUILD_ENVIRONMENT_URL: https://orgfc5f7544.crm.dynamics.com/
       PRODUCTION_ENVIRONMENT_URL: https://orgfb2ce971.crm.dynamics.com
-      CLIENT_ID: ${{ secrets.CLIENTID_TEST }}
-      TENANT_ID: ${{ secrets.TENANTID_TEST }}      
+      CLIENT_ID: a9f812e8-3e06-4b04-88f9-23358eb21a76
+      TENANT_ID: aaad00f9-90cb-4c5a-927d-a76f937ac386      
     secrets:
       envSecret: ${{ secrets.PowerPlatformSPN }}
