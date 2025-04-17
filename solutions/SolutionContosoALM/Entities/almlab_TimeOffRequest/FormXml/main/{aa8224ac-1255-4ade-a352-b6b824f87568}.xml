@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{aa8224ac-1255-4ade-a352-b6b824f87568}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{1c0bf573-64ac-4272-b516-726042fc9ceb}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{00bafcaa-4f70-4c2a-9f0d-b3cfedadf4fd}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{66a7ac90-6d0e-4bed-ba6e-b7a80e1ef9ef}">
+                        <labels>
+                          <label description="Reason" languagecode="1033" />
+                        </labels>
+                        <control id="almlab_reason" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="almlab_reason" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c150826d-5bb2-4efe-9d4b-501382545b24}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{13658ef4-06c1-49a0-be6f-e3a80a70ba04}">
+                        <labels>
+                          <label description="Employee" languagecode="1033" />
+                        </labels>
+                        <control id="almlab_employeeid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="almlab_employeeid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f7c25622-480e-46b8-a532-5fcff16087b4}">
+                        <labels>
+                          <label description="Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="almlab_startdate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="almlab_startdate" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9a41e95d-137e-4e59-859d-8e9cf17efb58}">
+                        <labels>
+                          <label description="End Date" languagecode="1033" />
+                        </labels>
+                        <control id="almlab_enddate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="almlab_enddate" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
