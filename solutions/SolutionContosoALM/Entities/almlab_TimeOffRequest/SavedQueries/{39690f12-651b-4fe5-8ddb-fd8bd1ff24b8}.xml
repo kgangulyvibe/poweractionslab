@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{39690f12-651b-4fe5-8ddb-fd8bd1ff24b8}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="almlab_reason" select="1" icon="1" preview="1">
+        <row name="result" id="almlab_timeoffrequestid">
+          <cell name="almlab_reason" width="300" />
+          <cell name="createdon" width="125" />
+          <cell name="almlab_employeeid" width="150" />
+          <cell name="almlab_startdate" width="150" />
+          <cell name="almlab_enddate" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="almlab_timeoffrequest">
+          <attribute name="almlab_timeoffrequestid" />
+          <attribute name="almlab_reason" />
+          <attribute name="createdon" />
+          <order attribute="almlab_reason" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="almlab_employeeid" />
+          <attribute name="almlab_startdate" />
+          <attribute name="almlab_enddate" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Time Off Requests" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>
